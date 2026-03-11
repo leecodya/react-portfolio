@@ -1,10 +1,10 @@
 import './Projects.css';
-import WoodlandsImage from '../assets/woodlands.png';
-import MWAImage from '../assets/mwa.png';
-import HHNTImage from '../assets/hhnt.png';
-import JonesGlassImage from '../assets/jonesglass.png';
-import OverheadDoorImage from '../assets/overheaddoor.png';
-import ElliottMachineShopImage from '../assets/elliottmachineshop.png';
+import WoodlandsImage from '../assets/Woodlands.PNG';
+import MWAImage from '../assets/MWA.png';
+import HHNTImage from '../assets/HHNT.png';
+import JonesGlassImage from '../assets/JonesGlass.png';
+import OverheadDoorImage from '../assets/OverheadDoor.png';
+import ElliottMachineShopImage from '../assets/ElliottMachineShop.png';
 
 export default function Projects() {
     return (
