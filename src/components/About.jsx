@@ -1,5 +1,5 @@
 import './About.css';
-import professionalPhoto from '../assets/professional shot.jpg';
+import professionalPhoto from '../assets/Professional-Shot.jpg';
 import collaboratorIcon from '../assets/collaborator-icon.png';
 import experienceIcon from '../assets/experience-icon.png';
 import projectsIcon from '../assets/project-icon.png';

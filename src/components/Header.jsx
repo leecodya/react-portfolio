@@ -1,5 +1,5 @@
 import './Header.css'
-import TechnicalResume from '../assets/Technical Developer.pdf';
+import TechnicalResume from '../assets/Technical-Developer.pdf';
 
 export default function Header() {
     return (
