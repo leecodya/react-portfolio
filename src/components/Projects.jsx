@@ -1,7 +1,7 @@
 import './Projects.css';
 import WoodlandsImage from '../assets/Woodlands.PNG';
-import MWAImage from '../assets/MWA.png';
-import HHNTImage from '../assets/HHNT.png';
+import MWAImage from '../assets/MWA.PNG';
+import HHNTImage from '../assets/HHNT.PNG';
 import JonesGlassImage from '../assets/JonesGlass.png';
 import OverheadDoorImage from '../assets/OverheadDoor.png';
 import ElliottMachineShopImage from '../assets/ElliottMachineShop.png';
