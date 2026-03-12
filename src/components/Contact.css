@@ -1,0 +1,32 @@
+.contact-section {
+    background-color: #f0eff1;
+    padding: 3rem 0;
+
+    @media (max-width: 768px) {
+        padding: 2rem 0;
+    }
+
+    h3 {
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                font-size: 20px;
+                color: #213547;
+                text-decoration: underline;
+
+                &:hover, &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

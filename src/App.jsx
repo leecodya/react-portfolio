@@ -2,6 +2,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
 import Education from './components/Education.jsx';
 import Experience from './components/Experience.jsx';
 import Footer from './components/Footer.jsx';
@@ -19,6 +20,7 @@ function App() {
          <Experience />
          <Education />
          <Skills />
+         <Contact />
          <Footer />
       </>
    )
