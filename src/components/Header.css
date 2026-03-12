@@ -1,14 +1,26 @@
 /* Header */
+.top-bar {
+    padding: 2rem 0;
+    background-color: #0d3650;
+    color: white;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        padding: 2rem 0;
+    }
+}
 .header {
     padding: 6rem 0;
     color: white;
     position: relative;
 
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
         padding: 2rem 0;
     }
 
-    h2, h3 {
+
+    h2,
+    h3 {
         font-weight: 400;
     }
 
@@ -27,7 +39,7 @@
         );
         z-index: -1;
 
-        @media (max-width: 768px){
+        @media (max-width: 768px) {
             background: rgba(9, 33, 47, 0.8);
         }
     }
@@ -52,7 +64,7 @@
 
         button {
             padding: 0;
-            
+
             a {
                 padding: 0.6em 1.5em;
                 display: block;
