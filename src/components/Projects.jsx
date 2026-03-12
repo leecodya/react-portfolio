@@ -5,6 +5,8 @@ import HHNTImage from '../assets/HHNT.PNG';
 import JonesGlassImage from '../assets/JonesGlass.png';
 import OverheadDoorImage from '../assets/OverheadDoor.png';
 import ElliottMachineShopImage from '../assets/ElliottMachineShop.png';
+import DIMLandscapingImage from '../assets/DIMLandscaping.PNG';
+import DixieLawnImage from '../assets/DixieLawn.PNG';
 
 export default function Projects() {
     return (
@@ -30,11 +32,27 @@ export default function Projects() {
                         </a>
                     </li>
                     <li className="project">
+                        <a href="https://dimlandscape.com/"  target="_blank" rel="noopener">
+                            <div className="project-image-container">
+                                <img src={DIMLandscapingImage} alt="DIM Landscaping" />
+                            </div>
+                            <span className="link-text">DIM Landscaping</span>
+                        </a>
+                    </li>
+                    <li className="project">
                         <a href="https://www.hhnt.com/"  target="_blank" rel="noopener">
                             <div className="project-image-container">
                                 <img src={HHNTImage} alt="HHNT" />
                             </div>
                             <span className="link-text">HHNT</span>
+                        </a>
+                    </li>
+                    <li className="project">
+                        <a href="https://dixielawnandlandscapinginc.com/"  target="_blank" rel="noopener">
+                            <div className="project-image-container">
+                                <img src={DixieLawnImage} alt="Dixie Lawn and Landscaping Inc." />
+                            </div>
+                            <span className="link-text">Dixie Lawn and Landscaping Inc.</span>
                         </a>
                     </li>
                     <li className="project">
