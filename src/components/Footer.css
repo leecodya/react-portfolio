@@ -33,7 +33,7 @@ footer {
         gap: 2rem;
         justify-content: space-between;
 
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             flex-direction: column;
             gap: 1.5rem;
         }
@@ -42,7 +42,7 @@ footer {
             position: relative;
             width: 30%;
 
-            @media(max-width: 768px) {
+            @media (max-width: 768px) {
                 width: 100%;
             }
 
@@ -83,7 +83,7 @@ footer {
         .nav-col {
             width: 20%;
 
-            @media(max-width: 768px) {
+            @media (max-width: 768px) {
                 width: 100%;
             }
         }
@@ -91,7 +91,7 @@ footer {
         .quick-links-col {
             width: 20%;
 
-            @media(max-width: 768px) {
+            @media (max-width: 768px) {
                 width: 100%;
             }
         }
@@ -99,7 +99,7 @@ footer {
         .collab-col {
             width: 30%;
 
-            @media(max-width: 768px) {
+            @media (max-width: 768px) {
                 width: 100%;
             }
 
@@ -116,6 +116,10 @@ footer {
                 padding: 0;
                 border: none;
                 width: 75%;
+
+                @media (max-width: 450px) {
+                    width: 100%;
+                }
 
                 a {
                     background-color: #25b0f1;

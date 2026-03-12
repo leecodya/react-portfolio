@@ -7,7 +7,7 @@ import wordPressIcon from '../assets/wordpress-icon.png';
 
 export default function About() {
     return (
-        <section className='about-me'>
+        <section className='about-me' id="about">
             <div className="container">
                 <div className="about-flex">
                     <div className="image-container">
