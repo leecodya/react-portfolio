@@ -27,7 +27,7 @@ export default function About() {
                             </li>
                             <li className="accomplishment">
                                 <img src={wordPressIcon} alt="WordPress Icon" />
-                                <span>Front-End and WordPress Developer</span>
+                                <span>Front-End & WordPress Developer</span>
                             </li>
                             <li className="accomplishment">
                                 <img src={collaboratorIcon} alt="Collaborator Icon" />
