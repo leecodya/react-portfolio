@@ -33,9 +33,18 @@ footer {
         gap: 2rem;
         justify-content: space-between;
 
+        @media(max-width: 768px) {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
         .name-col {
             position: relative;
             width: 30%;
+
+            @media(max-width: 768px) {
+                width: 100%;
+            }
 
             &:after {
                 content: "";
@@ -60,11 +69,6 @@ footer {
                 margin-right: 5px;
             }
 
-            /* span {
-                font-weight: 600;
-                font-size: 1.2em;
-                text-align: left;
-            } */
             h2 {
                 font-size: 40px;
                 margin-bottom: 0.4rem;
@@ -78,14 +82,26 @@ footer {
 
         .nav-col {
             width: 20%;
+
+            @media(max-width: 768px) {
+                width: 100%;
+            }
         }
 
         .quick-links-col {
             width: 20%;
+
+            @media(max-width: 768px) {
+                width: 100%;
+            }
         }
 
         .collab-col {
             width: 30%;
+
+            @media(max-width: 768px) {
+                width: 100%;
+            }
 
             h3 {
                 font-size: 20px;
