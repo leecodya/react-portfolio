@@ -1,0 +1,53 @@
+.skills-section {
+    background-color: #0d3650;
+    color: white;
+    padding: 3rem 0;
+
+    @media (max-width: 768px) {
+        padding: 2rem 0;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    .skills-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        list-style: none;
+        margin: 25px 0 0 0;
+        padding: 0;
+
+        @media (max-width: 768px) {
+            gap: 1.5rem;
+        }
+
+        .skills-category {
+            background-color: #1D4966;
+            color: white;
+            width: 31%;
+            /* width: 47%; */
+            position: relative;
+            border-radius: 8px;
+            height: auto;
+            padding: 1.5rem;
+
+            @media (max-width: 1096px) {
+                width: 47%;
+            }
+
+            @media (max-width: 888px) {
+                width: 100%;
+            }
+
+            h3 {
+                margin-bottom: 0.5rem;
+            }
+
+            ul {
+                padding-left: 30px;
+            }
+        }
+    }
+}

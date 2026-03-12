@@ -7,6 +7,10 @@
         padding: 2rem 0;
     }
 
+    h2 {
+        color: white;
+    }
+
     .projects-list {
         display: flex;
         flex-wrap: wrap;
