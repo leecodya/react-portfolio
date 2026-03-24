@@ -84,29 +84,40 @@ p {
 }
 
 button {
-    border-radius: 5px;
-    border: 1px solid #25b0f1;
-    padding: 0.6em 1.5em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
+    border: none;
+    padding: 0;
     background-color: transparent;
-    color: white;
-    cursor: pointer;
-    transition:
-        border-color 0.25s linear,
-        background-color 0.25s linear;
+    display: block;
 
-    @media (max-width: 768px) {
-        font-size: 16px;
+    a {
+        border-radius: 5px;
+        border: 1px solid #25b0f1;
+        padding: 0.9em 1.7em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: transparent;
+        color: white;
+        display: block;
+        cursor: pointer;
+        transition:
+            border-color 0.3s linear,
+            background-color 0.3s linear;
+
+        @media (max-width: 768px) {
+            font-size: 16px;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: #25b0f1;
+            color: white;
+        }
+        &:focus-visible {
+            outline: 4px auto -webkit-focus-ring-color;
+            color: white;
+        }
     }
-}
-button:hover {
-    background-color: #25b0f1;
-}
-button:focus,
-button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
 }
 
 .container {
@@ -121,7 +132,7 @@ button:focus-visible {
         padding: 0;
     }
 
-    @media only screen and  (min-width: 77.56em) {
+    @media only screen and (min-width: 77.56em) {
         width: 1200px;
     }
     /* width: 1280px;

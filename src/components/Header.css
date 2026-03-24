@@ -61,15 +61,5 @@
         display: flex;
         gap: 1em;
         margin-top: 35px;
-
-        button {
-            padding: 0;
-
-            a {
-                padding: 0.6em 1.5em;
-                display: block;
-                color: white;
-            }
-        }
     }
 }
