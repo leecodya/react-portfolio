@@ -1,6 +1,6 @@
 import './Footer.css';
-import projectsIcon from '../assets/project-icon.png';
 import TechnicalResume from '../assets/Technical-Developer.pdf';
+import Logo from './Logo';
 
 export default function Footer() {
     return (
@@ -9,9 +9,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-flex">
                         <div className="name-col">
-                            <img src={projectsIcon} alt="Project Icon" />
-                            <h2>Cody Lee</h2>
-                            <p>Web Developer & Software Engineer</p>
+                            <Logo />
                         </div>
                         <div className="nav-col">
                             <h3>Navigation</h3>

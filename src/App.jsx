@@ -15,11 +15,8 @@ function App() {
    return (
       <>
          <Header />
-         <About />
          <Projects />
-         <Experience />
-         <Education />
-         <Skills />
+         <About />
          <Contact />
          <Footer />
       </>
