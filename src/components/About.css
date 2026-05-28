@@ -40,6 +40,16 @@
                 width: 100%;
             }
 
+            h2 {
+                color: #123959;
+            }
+
+            .sub-title {
+                color: #25b0f1;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
             .accomplishments {
                 display: flex;
                 gap: 2rem;
