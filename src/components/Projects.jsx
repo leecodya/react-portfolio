@@ -12,7 +12,8 @@ export default function Projects() {
     return (
         <section className="projects-section" id="projects">
             <div className="container">
-                <h2>Projects</h2>
+                <p className="sub-title">My Work</p>
+                <h2>Featured Projects</h2>
                 <p>Discover the diverse range of projects I have successfully completed throughout my professional journey. These featured projects reflect my expertise and dedication to delivering exceptional results in every endeavor.</p>
                 <ul className="projects-list">
                     <li className="project">
