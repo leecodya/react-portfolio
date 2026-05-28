@@ -5,8 +5,10 @@ export default function Logo() {
     return (
         <div className='logo-container'>
             <img src={projectsIcon} alt="Project Icon" />
-            <h2>Cody Lee</h2>
-            <p>Web Developer</p>
+            <div className="content">
+                <h2>Cody Lee</h2>
+                <p>Web Developer</p>
+            </div>
         </div>
     )
 }

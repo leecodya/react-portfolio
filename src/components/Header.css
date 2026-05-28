@@ -3,7 +3,6 @@
     padding: 2rem 0;
     background-color: #0d3650;
     color: white;
-    text-align: center;
 
     @media (max-width: 768px) {
         padding: 2rem 0;
@@ -18,10 +17,18 @@
         padding: 2rem 0;
     }
 
+    .header-inner-container {
+        max-width: 50%;
+    }
 
-    h2,
-    h3 {
+    .blue-text {
+        color: #25b0f1;
+    }
+
+    h2 {
         font-weight: 400;
+        color: white;
+        font-size: 22px;
     }
 
     &:before {

@@ -1,5 +1,9 @@
 /* Logo */
 .logo-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
     img {
         width: 76px;
         height: 70px;
@@ -8,13 +12,17 @@
         margin-right: 5px;
     }
 
-    h2 {
-        font-size: 40px;
-        margin-bottom: 0.4rem;
-        color: white;
-        line-height: 1;
-    }
-    p {
-        font-size: smaller;
+    .content {
+        h2 {
+            font-size: 35px;
+            margin-bottom: 0;
+            color: white;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 17px;
+        }
     }
 }
