@@ -4,9 +4,9 @@ export default function Contact() {
     return (
         <section className="contact-section">
             <div className="container">
-                <h2>Contact Me</h2>
-                <h3>Interested in working together?</h3>
-                <p>I'm always open to discussing new projects, collaborations, or opportunities!</p>
+                <p className="sub-title">Get In Touch</p>
+                <h2>Let's Build Something Great</h2>
+                <p>Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours. I'm always open to discussing new projects, collaborations, or opportunities!</p>
                 <ul className="contact-list">
                     <li>
                         <a href="mailto:lee.codya@gmail.com?subject=Let's%20Work%20Together!">lee.codya@gmail.com</a>

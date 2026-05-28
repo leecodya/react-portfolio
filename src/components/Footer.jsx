@@ -24,7 +24,6 @@ export default function Footer() {
                         <div className="quick-links-col">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href={TechnicalResume} download>Resume Download</a></li>
                                 <li><a href="https://github.com/leecodya" target="_blank" rel="noopener noreferrer">Github</a></li>
                                 <li><a href="https://www.linkedin.com/in/cody-lee-a83629143/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                             </ul>
