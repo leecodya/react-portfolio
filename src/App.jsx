@@ -8,6 +8,7 @@ import Experience from './components/Experience.jsx';
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Projects from './components/Projects.jsx';
+import Services from './components/Services.jsx';
 import Skills from './components/Skills.jsx';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    return (
       <>
          <Header />
+         <Services />
          <Projects />
          <About />
          <Contact />
