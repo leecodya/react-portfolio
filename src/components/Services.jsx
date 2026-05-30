@@ -11,7 +11,7 @@ export default function Services() {
                 <p>End-to-end solutions to build, improve, and grow your online presence.</p>
                 <ul className="services-list">
                     {services.map((service) => (
-                        <li className="service" key={service.title}>
+                        <li className={`service${service.new ? ` new-service` : ``}`} key={service.title}>
                             <h3>{service.title}</h3>
                             <p>{service.description}</p>
                             <div className="service-tags">
