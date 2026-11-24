@@ -7,7 +7,7 @@ export default function Education() {
                 <h2>Education</h2>
                 <ul className="education-list">
                     <li className="education">
-                        <h3>Master's in Appied Computer Science</h3>
+                        <h3>Master's in Applied Computer Science</h3>
                         <h4>University of West Georgia</h4>
                         <time>August 2019 - July 2022</time>
                     </li>
