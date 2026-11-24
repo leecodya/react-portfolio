@@ -8,6 +8,28 @@ export default function Experience() {
                 <ul className="experience-list">
                     <li className="experience">
                         <header className="exp-header">
+                            <h3>Pulse PEMF</h3>
+                            <time>March 2026 - Nov 2026</time>
+                        </header>
+                        <div className="exp-body">
+                            <h4> Front End Web Developer | WordPress</h4>
+                            <ul>
+                                <li>Maintain, update, and improve multiple WordPress websites and a WooCommerce online store.</li>
+                                <li>Develop responsive web pages, new features, integrations, and improvements that enhance the </li>customer experience.
+                                <li>Work directly with internal teams to understand business challenges, ask questions, and develop </li>effective web solutions.
+                                <li>Translate business needs into functional solutions without requiring detailed technical </li>specifications.
+                                <li>Communicate technical concepts, project updates, and recommendations clearly to individuals </li>without technical backgrounds.
+                                <li>Manage website plugins, hosting, performance, security, and SEO improvements.</li>
+                                <li>Troubleshoot website issues, identify root causes, and implement solutions independently.</li>
+                                <li>Use AI development tools, such as Claude Code, to assist with coding, troubleshooting, research, </li>and learning new technologies.
+                                <li>Collaborate with IT, marketing, sales, and operations teams on website functionality and business </li>initiatives.
+                                <li>Support integrations between websites, business systems, and other applications.</li>
+                                <li>Identify opportunities to improve website usability, performance, and overall functionality.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li className="experience">
+                        <header className="exp-header">
                             <h3>M&R Marketing</h3>
                             <time>Oct 2022 - May 2025</time>
                         </header>

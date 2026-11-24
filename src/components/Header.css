@@ -28,6 +28,10 @@
 
     .header-inner-container {
         max-width: 50%;
+
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
     }
 
     .blue-text {

@@ -1,9 +1,9 @@
 import './About.css';
 import professionalPhoto from '../assets/Professional-Shot.jpg';
-//import collaboratorIcon from '../assets/collaborator-icon.png';
-//import experienceIcon from '../assets/experience-icon.png';
-//import projectsIcon from '../assets/project-icon.png';
-//import wordPressIcon from '../assets/wordpress-icon.png';
+import collaboratorIcon from '../assets/collaborator-icon.png';
+import experienceIcon from '../assets/experience-icon.png';
+import projectsIcon from '../assets/project-icon.png';
+import wordPressIcon from '../assets/wordpress-icon.png';
 
 export default function About() {
     return (
@@ -16,17 +16,15 @@ export default function About() {
                     <div className="about-content">
                         <p className="sub-title">About Me</p>
                         <h2>Hi, I'm Cody Lee</h2>
-                        <p>I'm a freelance web developer with over 8 years of experience creating fast, responsive, accessible websites that help businesses grow. I specialize in building, improving, and optimizing sites - including AI-generated websites - so they can perform better and rank higher.</p>
-                        {
-                            /** Commenting this out for now
+                        <p>I'm a web developer based in Georgia with a passion for crafting pixel perfect, responsive, and accessible websites. My background in both front-end development and back-end logic helps me bridge the gap between aesthetics and performance. I love turning complex ideas into clean, user-center experiences. I maintain a continuous desire for professional development and advancement within my field.</p>
                         <ul className="accomplishments">
                             <li className="accomplishment">
                                 <img src={experienceIcon} alt="Experience Icon" />
-                                <span>8+ Years of Experience</span>
+                                <span>9+ Years of Experience</span>
                             </li>
                             <li className="accomplishment">
                                 <img src={projectsIcon} alt="Projects Icon" />
-                                <span>15+ Projects Completed</span>
+                                <span>20+ Projects Completed</span>
                             </li>
                             <li className="accomplishment">
                                 <img src={wordPressIcon} alt="WordPress Icon" />
@@ -37,8 +35,6 @@ export default function About() {
                                 <span>Problem Solver & Collaborator</span>
                             </li>
                         </ul>
-                             */
-                        }
                     </div>
                 </div>
             </div>

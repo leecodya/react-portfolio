@@ -30,8 +30,8 @@ export default function Footer() {
                         </div>
                         <div className="collab-col">
                             <h3>Interested in working together?</h3>
-                            <p>Let's build something great. Get in touch!</p>
-                            <button><a href="https://www.fiverr.com/s/NNjvrzo" target="_blank" rel="noopener noreferrer">Hire Me</a></button>
+                            <p>Let's build something great!</p>
+                            <button><a href="mailto:lee.codya@gmail.com?subject=New%20Opportunity!" target="_blank" rel="noopener noreferrer">Get In Touch</a></button>
                         </div>
                     </div>
                 </div>

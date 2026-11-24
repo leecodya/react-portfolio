@@ -16,9 +16,11 @@ function App() {
    return (
       <>
          <Header />
-         <Services />
-         <Projects />
          <About />
+         <Projects />
+         <Experience />
+         <Education />
+         <Skills />
          <Contact />
          <Footer />
       </>
